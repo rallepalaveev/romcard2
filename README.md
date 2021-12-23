@@ -23,7 +23,7 @@ The boot loader has functionality that it captures the boot sequence of the comp
 If ”\” is pressed while performing a cold reset – the boot sequence will override the ROMcard2 boot so floppy disk can boot.
 Programs are called with “&” followed by the number of the program
 &2 calls the program which returns a list of programs recorded onto ROMcard2
-
+clintech.net/romcard
  
 
 
