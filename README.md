@@ -1,7 +1,7 @@
 # romcard
 A periferal card for Apple][
 
-This is a project I resurrected in 2021, based on my otiginal design cerca 1995 - ROMcard, based on 8 x 64C512 EPROM chips. A photo of the original is posted.
+This is a project I resurrected in 2021, based on my original design cerca 1995 - ROMcard, based on 8 x 64C512 EPROM chips. A photo of the original is posted.
 The ROMcard2 is intended to work with EPROM 27C040 and compatible. 
 The ROM is organized in 256 banks of 2kB each, numbered #00 to #FF
 Banks are selected by writing a byte (#00 - #FF) into $C0Nx, where N = 8 + [slot number]
