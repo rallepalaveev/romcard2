@@ -1,4 +1,4 @@
-# romcard
+# romcard2
 A periferal card for Apple //
 
 This is a project I resurrected in 2021, based on my original design cerca 1995 - ROMcard, based on 8 x 64C512 EPROM chips. A photo of the original is posted.
