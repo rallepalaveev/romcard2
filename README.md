@@ -1,6 +1,4 @@
 # romcard2
-A periferal card for Apple //
-
 This is a project I resurrected in 2021, based on my original design cerca 1995 - ROMcard, based on 8 x 27C512 EPROM chips - a total of 512kB.
 A photo of the original is posted.
 The ROMcard2 is intended to work with a single EPROM 27C040 and compatible. 
@@ -25,7 +23,6 @@ If ”\” is pressed while performing a cold reset – the boot sequence will o
 Programs are called with “&” followed by the number of the program
 &2 calls the program which returns a list of programs recorded onto ROMcard2.
 10 Apr 2022 edit: added new firmware for ProDOS. Functions as a standard block device.
-www.clintech.net/romcard
 
 Copyright (c) 2021 Ralle Palaveev
 All rights reserved.
