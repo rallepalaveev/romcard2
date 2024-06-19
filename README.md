@@ -12,11 +12,11 @@ The bootloader is programmed in the lowest 256 bytes of the ROM chip
 The boot loader is always available at addresses $CM00-$CMFF, where M = [slot number]
 The bootloader can also be seen at addresses $C800-$C8FF of bank #00
 Each program must be recorded in the ROM as follows:
-4 markers – #AA #D5 #55 #2A, always starting at an address $xxx00 – multiple of #100 
-16 bytes with the name of the program
-2 bytes indicating the start address of the program
-2 bytes with the length of the program
-The actual binary code of the program
+* 4 markers – #AA #D5 #55 #2A, always starting at an address $xxx00 – multiple of #100 
+* 16 bytes with the name of the program
+* 2 bytes indicating the start address of the program
+* 2 bytes with the length of the program
+* The actual binary code of the program
 Recommended installation is on Slot 7.
 The boot loader has functionality that it captures the boot sequence of the computer and executes the first program recorded onto the ROM – usually DOS.
 If ”\” is pressed while performing a cold reset – the boot sequence will override the ROMcard2 boot so floppy disk can boot.
